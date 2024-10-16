@@ -1,0 +1,11 @@
+@import "../../scss/colors.scss";
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 25px;
+  font-size: 20px;
+  border: 1px solid $dark-gray;
+  border-radius: 30px;
+}
