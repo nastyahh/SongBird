@@ -6,8 +6,8 @@ const HomePage = () => {
   return (
     <div className={styles.home}>
       <div className="container">
-        <header className={styles.home__header}>
-          <span className={styles.logo}>SongBird</span>
+        <header className="header">
+          <span className={`logo ${styles.home__logo}`}>SongBird</span>
         </header>
         <div className={styles.home__intro}>
           <p>Добро пожаловать в Songbird Quiz! </p>

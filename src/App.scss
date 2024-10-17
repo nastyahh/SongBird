@@ -1,6 +1,26 @@
+@import "../src/scss/colors.scss";
+
+body {
+  color: $cream-color;
+  background: $black;
+}
+.app {
+  height: 100%;
+  background: $black;
+}
 .container {
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   padding: 0 50px;
+}
+.header {
+  padding: 20px 0;
+}
+.logo {
+  display: inline-block;
+  line-height: 70px;
+  font-family: "Lobster", sans-serif;
+  font-size: 75px;
+  text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.29);
 }
